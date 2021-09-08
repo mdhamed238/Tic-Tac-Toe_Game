@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css"> 
+    <script src="app.js" defer></script>  
+    <title>Tic-Tac-Toe Game</title>
+</head>   
+<body>
+    <header>
+        <h1>TIC-TAC-TOE GAME</h1>
+        <!--
+        <hr>
+             <form action="" onsubmit="namePlayers()">  
+                 <input type="text" name="X"> 
+                 <input type="text" name="O">
+                 <button type="submit">done</button>
+             </form>
+            -->
+        <hr>
+        <button type="submit" id="start">Start Game</button>
+    </header>
+    
+    <div class="board" id="board">   
+        <div class="cell" data-cell></div>   
+        <div class="cell" data-cell></div>  
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div> 
+    
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text>X wins!</div>  
+        <button id="restartButton">Restart</button>
+    </div>
+
+</body>
+</html>
