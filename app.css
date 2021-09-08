@@ -169,7 +169,8 @@ header {
     align-items: center;
 }
 button#start {
-    color: white;
+    color: #0077b6;
+    background-color: white;
     font-weight: 600;
     padding: 4px 5px;
     margin-top: 20px;
